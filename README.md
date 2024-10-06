@@ -1,6 +1,6 @@
 # smFISH
 Design smFISH probes (take into consideration target structure)
-This is a work in progress, aiming to imrpove the design of efficient smFISH probes for RNA targets by considering the RNA secondary structure.
+This is a work in progress, aiming to improve the design of efficient smFISH probes for RNA targets by considering the RNA secondary structure.
 REQUIREMENTS:
 1. Python 3.x.x with pandas, biopython == 1.83 (or earlier)
 2. RNAstructure text interface version 6.5 (earlier versions do not work! and please see installation notes for PinMol for help on how to configure this)
