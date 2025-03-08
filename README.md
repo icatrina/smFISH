@@ -1,3 +1,7 @@
+March 7th, 2025:
+The Python program "smFISH_intermolecular_pairs.py" is platform independent, and in addition to designing smFISH probes it generates an output file containing intermolecular free energy change for duplex formation between unlike probes ("*combined_output.csv"). Please read the program's printed message for more information.
+
+
 # smFISH
 Design smFISH probes (take into consideration target structure)
 This is a work in progress, aiming to improve the design of efficient smFISH probes for RNA targets by considering the RNA secondary structure.
