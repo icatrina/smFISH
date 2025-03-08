@@ -1,5 +1,5 @@
 March 7th, 2025:
-The Python program "smFISH_intermolecular_pairs.py" is platform independent, and in addition to designing smFISH probes it generates an output file containing intermolecular free energy change for duplex formation between unlike probes ("*combined_output.csv"). Please read the program's printed message for more information.
+The Python program "smFISH_intermolecular_pairs.py" is platform independent, and in addition to designing smFISH probes it generates an output file containing intermolecular free energy changes for duplex formation between unlike probes ("*combined_output.csv"). Please read the program's printed message for more information.
 
 
 # smFISH
