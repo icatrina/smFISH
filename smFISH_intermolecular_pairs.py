@@ -127,10 +127,11 @@ if __name__ == "__main__":
     
     # Process the second program using the extracted oligos
     process_list_file(mb_userpath, fname, oligos)
+    print(fname)
 
-    print("Check the *final_filtered_file.csv for proposed smFISH probes. However, if not enough probes have been"
-          +" selected given the initial selection criteria or only the CDS is targeted, please review the *filtered_file.csv and *3.csv to "
-          +"select additional probes. Moreover, the intermolecular interactions of the probes should be taken into acocunt. Please review the *combined_output.csv file, and eliminate any probes with "
+    print("Check the " + fname + "final_filtered_file.csv for proposed smFISH probes. However, if not enough probes have been"
+          + " selected given the initial selection criteria or only the CDS is targeted, please review the " + fname +"3.csv to "
+          +"select additional probes. Moreover, the intermolecular interactions of the probes should be taken into acocunt. Please review the " + fname + "combined_output.csv file, and eliminate any probes with "
           + "intermolecular hybdridization free energy change < -10kcal/mol.")
    # print("Completed processing of both programs.")
 
