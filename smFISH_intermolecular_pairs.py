@@ -6,7 +6,7 @@ import math
 from pathlib import Path
 
 print("\n" * 5)
-print('smFISH_HybEff program  Copyright (C) 2022  Irina E. Catrina' + '\n' +
+print('smFISH_HybEff program  Copyright (C) 2025  Irina E. Catrina' + '\n' +
       'This program comes with ABSOLUTELY NO WARRANTY;' + '\n' +
       'This is free software, and you are welcome to redistribute it' + '\n' +
       'under certain conditions; for details please read the GNU_GPL.txt file.' + '\n')
@@ -127,7 +127,6 @@ if __name__ == "__main__":
     
     # Process the second program using the extracted oligos
     process_list_file(mb_userpath, fname, oligos)
-    print(fname)
 
     print("Check the " + fname + "final_filtered_file.csv for proposed smFISH probes. However, if not enough probes have been"
           + " selected given the initial selection criteria or only the CDS is targeted, please review the " + fname +"3.csv to "
