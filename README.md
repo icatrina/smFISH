@@ -1,3 +1,10 @@
+Archived on August 18th, 2025
+
+Please use our newest tools offered as a webserver (https://rnaprobes.org) and source files (https://github.com/Catrina-Lab/RNAProbesSource) for the following probe types:
+  1. Molecular beacons with optional blastn analysis - no target length limitation
+  2. Triplex-forming oligonucleotides - no target length limitation
+  3. smFISH probes with optional blastn analysis (in progress) and calculation of intermolecular duplex formation between selected probes (up to 48 probes) -            webserver up to 4,000 nt target length and local source - no target length limitation
+
 March 7th, 2025:
 The Python program "smFISH_intermolecular_pairs.py" is platform independent, and in addition to designing smFISH probes it generates an output file containing intermolecular free energy changes for duplex formation between unlike probes ("*combined_output.csv"). Please read the program's printed message for more information.
 
